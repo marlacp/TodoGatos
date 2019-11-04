@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
     FooterComponent
   ],
   exports: [
+    // es importante exportarlos para que se puedan utilizar en otros modulos.
     HeaderComponent,
     FooterComponent
   ],
