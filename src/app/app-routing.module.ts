@@ -6,6 +6,17 @@ const routes: Routes = [{
   path: '',
   // aqui es importante enrutar el layout
   component: LayoutComponent,
+  children: [
+    {
+      path: '',
+      redirectTo: '/home',
+      pathMatch: 'full',
+    },
+    {
+      path: 'home',
+      loadChildren: () => import('./Home/home.module').then(m => m.HomeModule)
+    }
+  ]
 }];
 
 @NgModule({
