@@ -14,6 +14,7 @@ import { SharedModule } from './Shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    // se importa Sharedmodule porque otros modulos van a utilizar sus componentes
     SharedModule
   ],
   providers: [],
