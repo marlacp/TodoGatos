@@ -4,7 +4,7 @@ import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [{
   path: '',
-  // aqui es importante en rutar el layout
+  // aqui es importante enrutar el layout
   component: LayoutComponent,
 }];
 
