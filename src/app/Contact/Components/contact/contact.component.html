@@ -1,1 +1,78 @@
-<p>contact works!</p>
+<!-- Aqui lo que hacemos es crear con router link un enlace para devolvernos al inicio  -->
+
+<!-- de esta hoja de estilo obtengo los iconos  -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+
+
+integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+crossorigin="anonymous">
+
+
+
+
+    <div class="container">
+        
+            <div id="fondo">
+                    <!-- se agrega la clase opacity para el css -->
+                    <div class="card opacity">
+                        <div class="d-flex flex-row">
+                            <div class="p-2"><a routerLink="/home">TodoGatos</a></div>
+                            <div class="p-2">/ Contacto</div>
+                        </div>
+                </div>
+            <div class="row">
+                <!-- se agrega la clase opacity y esp para el css -->
+                <div class="col-md-4  offset-md-1 opacity esp">
+                    <h2 class="d-flex justify-content-center">¡Escribenos!</h2>
+                    <label>Nombre</label>
+                    <input type="text"class="form-control">
+                    <br>
+                    <label>Correo</label>
+                    <input type="email"class="form-control">
+                    <br>
+                    <label>Mensaje</label>
+                    <textarea class="form-control"></textarea>
+                    <hr>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-primary">Enviar</a>
+                        <a class="btn btn-secondary" routerLink="/lugares">Cancelar</a>  
+                    </div>
+                    
+                </div>
+                <!-- se agrega la clase opacity y esp para el css -->
+
+                <div class="col-md-4 offset-md-2 opacity esp">
+                    <p class="d-flex justify-content-center"><i class="fas fa-globe fa-4x"></i></p>
+                    <h2 class="d-flex justify-content-center">Contacto</h2>
+                    <p class="d-flex justify-content-center">Marla Prieto</p>
+                    <p class="d-flex justify-content-center">Ingeniera Electrónica</p>
+                    <p class="d-flex justify-content-center"><i class="fas fa-phone"><span> +53 319 322 80 61</span></i></p>
+                    <p class="d-flex justify-content-center"><i class="fas fa-map-marker-alt"><span> Villavicencio, Colombia</span></i></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+<!-- 
+    <div class="card card-body bg-light">
+        <a routerLink="/lugares">Lugares</a>/Contacto
+    </div> -->
+    
+    <!-- <div class="container">
+        <label > Nombre </label>
+        <input type="text" class="form-control"/>
+        <br/>
+        <label > Correo </label>
+        <input type="text" class="form-control"/>
+        <br/>
+        <label > Mensaje </label>
+        <textarea  class="form-control"></textarea> 
+        <hr/>
+        <a class="btn btn-primary">Enviar</a>
+        <a class="btn btn-default" routerLink="/lugares">Cancelar</a>
+        
+    </div>     -->
+
+
