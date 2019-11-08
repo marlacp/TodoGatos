@@ -1,17 +1,16 @@
 #fondo{
     /* background-image: url("C:\Users\MARLA-PP\Documents\Curso de angular\Proyecto\PlatziSquare\src\assets\cielo.jpg"); */
-    background-image: url("./../../../../assets/images/cielo.jpg");
+    background-image: url("./../../../../assets/images/Fondo-Contacto.png");
     
     background-position: 50% 50%;
     /* para que la imagen sea completa */
     background-size:cover;
     height: 100vh;
-    
     font-family: Arial;
 }
 
 .opacity{
-    background-color:rgb(240,248,255,0.7);
+    background-color:rgb(240,248,255,0.5);
 
 }
 /* separando lugar escribenos y contacto */
