@@ -1,12 +1,16 @@
-<div *ngIf="product" class="product-grid2"> 
-        <div>
-          <img [src]="product.image" alt="">
-        </div>
-        <div>
-          <ul>
-            <li>Nombre: {{ product.title }}</li>
-            <li>Precio: {{ product.price | currency }}</li>
-          </ul>
-          <p>{{ product.description }}</p>
-        </div>
+<div class="container2">
+  <div class="hero">
+    <div *ngIf="product" class="product-img"> 
+            <div>
+              <img [src]="product.image" alt="">
+    </div>  
+  </div>
+  <div class="box2">
+    <ul>
+      <li> <strong>Artículo:</strong>  {{ product.title }}</li>
+      <li> <strong>Precio:</strong>  {{ product.price | currency }}</li>
+    </ul>
+    <p> {{ product.description }}</p>
+  </div>
+  
 </div>
