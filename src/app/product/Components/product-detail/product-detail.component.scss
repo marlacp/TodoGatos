@@ -3,6 +3,7 @@
 
 }
 
+@media screen and (min-width: 769px) and (max-width: 2000px){
 .container2 {
     // border: 1px solid red;
     width: 800px;
@@ -48,3 +49,37 @@ ul {
       padding: 0%;
       margin-top: 20px;
   }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .container2 {
+        // border: 1px solid red;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+
+    .hero {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-device-width : 760px){
+    .container2 {
+        // border: 1px solid red;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+
+    .hero {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
