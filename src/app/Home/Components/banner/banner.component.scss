@@ -15,3 +15,43 @@
     font-style: oblique;
   }
 
+  @media screen and (max-width: 768px) {
+    .swiper-container {
+        width: 260px;
+        height: 400px;
+    }
+
+    .centrado{
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: gray;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-style: oblique;
+        font-size: small;
+      }
+    
+  }
+
+  @media screen and (max-device-width : 760px) {
+    .swiper-container {
+        width: 260px;
+        height: 400px;
+    }
+
+    .centrado{
+        height: 20px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: gray;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-style: oblique;
+        font-size: small;
+      }
+  }
