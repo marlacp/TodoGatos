@@ -32,6 +32,7 @@
               "./node_modules/flexboxgrid/dist/flexboxgrid.min.css",
               "./node_modules/flexboxgrid/dist/flexboxgrid.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/swiper/css/swiper.css",
               "src/styles.scss"
             ],
             "scripts": []
