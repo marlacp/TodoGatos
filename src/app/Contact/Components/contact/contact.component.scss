@@ -33,4 +33,23 @@ span{
     font-family: Arial;
 
 }
+@media screen and (max-width: 768px) {
+     .offset-md-1{
+         width: 60%;
+     }
 
+     .offset-md-2{
+         width: 60%;
+     }
+
+     .container {
+
+        width: 250px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin: 0 auto;
+        // display: inherit;
+      
+        }
+}
+@media screen and (max-device-width : 760px) {}
