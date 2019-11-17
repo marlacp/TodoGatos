@@ -15,7 +15,7 @@ crossorigin="anonymous">
 
 <div   id="fondo" >
     
-    <div class="row">
+    <div class="row grid-left2">
         <!-- se agrega la clase opacity y esp para el css -->
                 <div class="col-md-4  offset-md-1  opacity esp  alert-warning "  >
                     <h2 class="d-flex justify-content-center">¡Escríbenos!</h2>
@@ -23,13 +23,14 @@ crossorigin="anonymous">
                     <input type="text"class="form-control">
                     <br>
                     <label>Correo</label>
-                    <input type="email"class="form-control">
+                    <input placeholder="Digite su correo" [formControl]="emailField" type="email"class="form-control">
                     <br>
                     <label>Mensaje</label>
                     <textarea class="form-control"></textarea>
                     <hr>
                     <div class="d-flex justify-content-center">
-                        <a class="btn btn-warning">Enviar</a>
+                        <button mat-raised-button [disabled] ="emailField.invalid" (click)="sendMail()" >Enviar</button>
+                        <!-- <a class="btn btn-warning" >Enviar</a> -->
                         <a class="btn btn-secondary" routerLink="/lugares">Cancelar</a>  
                     </div>
                     

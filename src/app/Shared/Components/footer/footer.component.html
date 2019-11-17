@@ -1,47 +1,22 @@
 <footer>
-    <div class="container">
-      <div class="row">
+    <div class="container ">
+      <div class="row grid-left">
+
         <div class="col-xs-12 col-md-4">
           <div class="box">
-            <h3>Productos</h3>
+            <h2>¿Creamos algo juntos?</h2> 
             <ul>
-              <li>
-                <a routerLink="/products" [queryParams]="{ type: 'news' }"
-                  >Nuevos Productos</a
-                >
-              </li>
-              <li>
-                <a routerLink="/products" [queryParams]="{ type: 'offer' }"
-                  >En oferta</a
-                >
-              </li>
-              <li>
-                <a routerLink="/products" [queryParams]="{ type: 'latest' }"
-                  >Últimos productos</a
-                >
-              </li>
+              <li><a routerLink="/contact">Contactame</a></li>
             </ul>
           </div>
         </div>
         <div class="col-xs-12 col-md-4">
-          <div class="box">
-            <h3>Acerca de TodoGatos</h3>
-            <ul>
-              <li><a routerLink="/about-us">Sobre nosotros</a></li>
-              <li><a routerLink="/stores">Nuestras tiendas</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-4">
-          <div class="box">
-            <h3>Contacto</h3>
-            <mat-form-field>
-              
-              <input matInput placeholder="Digite su correo" [formControl]="emailField" type="email">
-            </mat-form-field>
-            <button mat-raised-button [disabled] ="emailField.invalid" (click)="sendMail()" >Enviar</button>
-           
-          </div>
+            <div class="social">
+                <a href="https://twitter.com/Marlita_26" class="social-link twitter"></a>
+                <a href="https://www.facebook.com/carola.marla" class="social-link facebook"></a>
+                <a href="https://github.com/marlacp" class="social-link github"></a>
+                <a href="https://www.instagram.com/marlacpp/" class="social-link instagram"></a>
+              </div>
         </div>
       </div>
     </div>

@@ -4,8 +4,15 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 50px 20px;
+  padding-left: 10px;
 }
+ .grid-left{
+   padding-left: 45px;
+ }
 
+ .grid-left2{
+  padding-left: 80px;
+ }
 
 .container {
 

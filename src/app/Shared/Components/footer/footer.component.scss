@@ -5,10 +5,16 @@ footer {
     margin-top: 20px;
     background-color:#C88C5D;
     .box {
+      h2{
+        color: white;
+      }
       h3 {
         color: white;
       }
       input{
+        color: white;
+      }
+      p{
         color: white;
       }
       ul {
@@ -25,3 +31,25 @@ footer {
       }
     }
   }
+
+  .social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+  }
+  
+  .social-link.twitter {
+    background-image: url('./../../../../assets/images/twitter.svg');
+  }
+  .social-link.facebook {
+    background-image: url('./../../../../assets/images/facebook.svg');
+  }
+  .social-link.github {
+    background-image: url('./../../../../assets/images/github.svg');
+  }
+  .social-link.instagram {
+    background-image: url('./../../../../assets/images/instagram.svg');
+  }
+  
