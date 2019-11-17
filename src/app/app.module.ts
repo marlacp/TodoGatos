@@ -8,6 +8,11 @@ import { LayoutComponent } from './layout/layout.component';
 import { SharedModule } from './Shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// configuracion firebase
+import { AngularFireModule } from '@angular/fire';
+import { environment } from './../environments/environment';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +24,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     SharedModule,
 
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    // configuracion firebase
+    AngularFireModule.initializeApp(environment.firebase)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
