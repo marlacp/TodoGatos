@@ -36,20 +36,32 @@ span{
 @media screen and (max-width: 768px) {
      .offset-md-1{
          width: 60%;
+         font-size: x-small;
+         
      }
 
      .offset-md-2{
          width: 60%;
+         font-size: x-small;
+         height: 250px;
      }
 
-    //  .container {
 
-    //     width: 250px;
-    //     padding-right: 0px;
-    //     padding-left: 0px;
-    //     margin: 0 auto;
-    //     // display: inherit;
-      
-    //     }
 }
-@media screen and (max-device-width : 760px) {}
+@media screen and (max-device-width : 760px) {
+    .offset-md-1{
+        width: 60%;
+        font-size: x-small;
+        
+    }
+
+    .offset-md-2{
+        width: 60%;
+        font-size: x-small;
+        height: 210px;
+    }
+
+    .offset-md-2 h2 {
+        font-size: x-small;
+    }
+}
