@@ -47,7 +47,7 @@ En el home representa la página principal de la tienda,  tenemos el componente 
 #### Shared
 En shared tenemos lo componentes que son compartidos, que son  header y el footer, aqui se realiza el diseño de ellos.
 #### Layout
-Aquí tenemos el control de unir el footer y header en todas las paginas, es decir lo que rutas como home products y contact siempre deben mantener un header y un footer.
+Aquí tenemos el control de unir el footer y header en todas las paginas, es decir rutas como home products y contact siempre deben mantener un header y un footer.
 
 #### Material
 Es el modulo de librerias que se creo especificamente para llamar cuando se necesite, en este caso se utilizó para el header, y productos. Aqui se puede crear numerosos componentes si quieres más info revisa la página https://material.angular.io/components/categories
