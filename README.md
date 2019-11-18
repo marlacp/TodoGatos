@@ -8,7 +8,7 @@ Te presento una  tienda virtual (Frontend) con la tematica de venta de utencilio
 
 El diseño fue realizado con Angular, y esta moduladizado para no dejar toda la carga al app.module.ts.
 
-####El proyecto esta dividido en los siguientes componentes:
+#### El proyecto esta dividido en los siguientes componentes:
                 
 + app
     + Contact
@@ -38,7 +38,7 @@ El diseño del proyecto en su mayoría esta en la carpeta app.
 Acontinuación hablaremos un poco más de esta carpeta:
 
 #### Contact
-Como su nombre lo indica tiene el contenido de la ruta de contacto, es decir sus componentes html, css, y ts. 
+Como su nombre lo indica tiene el contenido de la ruta de contacto, aquí se realizó todo su diseño.
 #### Core
 En core se creo un modelo para el array de porductos y unos servicios que son el detalle del producto, y el servicio del carro donde escuchamos cuando agreguen productos al botón del carrito.
 
