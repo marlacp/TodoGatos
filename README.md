@@ -35,7 +35,7 @@ El diseño fue realizado con Angular, y esta moduladizado para no dejar toda la 
 
 
 El diseño del proyecto en su mayoría esta en la carpeta app. 
-Acontinuación hablaremos un poco más de esta carpeta:
+A continuación hablaremos un poco más de esta carpeta:
 
 #### Contact
 Como su nombre lo indica tiene el contenido de la ruta de contacto, aquí se realizó todo su diseño.
